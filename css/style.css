@@ -150,7 +150,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
-  border: (1px solid rgba(46, 47, 66, 0.4));
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
   padding: 8px 16px;
@@ -199,6 +199,10 @@ ul {
 
 .checkbox-input + .checkbox-label .checkbox-span {
   outline: 1px solid #404bbf;
+}
+
+.checkbox-link {
+  color: #4d5ae5;
 }
 
 .modal-button {
