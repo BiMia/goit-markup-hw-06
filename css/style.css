@@ -760,7 +760,7 @@ ul {
   letter-spacing: 0.03em;
   font-family: var(--logo-font-family);
   margin-right: 76px;
-  display: inline-block;
+  display: flex;
   margin-bottom: 16px;
 }
 
@@ -840,6 +840,7 @@ ul {
 .footer-form {
   display: flex;
   gap: 24px;
+  padding-top: 16px;
 }
 
 .footer-label-content {
