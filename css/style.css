@@ -861,6 +861,7 @@ ul {
 .footer-button {
   min-width: 165px;
   height: 40px;
+  font-family: Roboto;
   display: flex;
   padding: 8px 24px;
   justify-content: center;
