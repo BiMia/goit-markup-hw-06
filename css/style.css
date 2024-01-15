@@ -327,6 +327,8 @@ ul {
 
 .contacts-section {
   font-style: normal;
+  display: flex;
+  align-items: center;
 }
 
 .address-link {
@@ -336,7 +338,6 @@ ul {
   line-height: 150%;
   letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 24px;
 }
 
 .address-link:hover,
