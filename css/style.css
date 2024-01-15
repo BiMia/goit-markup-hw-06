@@ -187,10 +187,14 @@ ul {
   fill: transparent;
 }
 
-.input:checked + .checkbox-label span:first-child {
+#user-privacy:checked + .checkbox-label .checkbox-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+
+.checkbox-input + .checkbox-label .checkbox-span {
+  outline: 1px solid #404bbf;
 }
 
 .modal-button {
