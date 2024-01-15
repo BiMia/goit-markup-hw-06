@@ -106,9 +106,10 @@ ul {
 }
 
 .modal-content {
-  display: column;
+  display: flex;
   text-align: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .modal-header {
